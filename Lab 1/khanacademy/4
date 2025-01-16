@@ -9,6 +9,7 @@
       font-family: Monospace;
       font-size: 54px;
       font-style: bold;
+      text-align: center;
     }
     h2 {
       color: rgb(255,82,243);
