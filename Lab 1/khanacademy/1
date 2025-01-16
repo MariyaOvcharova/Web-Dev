@@ -6,5 +6,12 @@
   <body>
   <h1>Laboratory work 1</h1>   
   <h2>First laboratory work of this semester</h2>
+  <p>In this foulder will be <strong>all lessons</strong> from <em>khanacademy.org</em> </p>
+  <h3>What academy will be in Lab1 folder?</h3>
+  <ul>
+    <li>udemy</li>
+    <li>w3schools</li>
+  </ul>
+  <p><em>*there you can see another lessons</em></p>
   </body>
 </html>
