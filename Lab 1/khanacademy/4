@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 1</title>
+    <style>
+    h1 {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+      font-size: 54px;
+      font-style: bold;
+    }
+    h2 {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+    }
+    h3 {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+    }
+    p {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+    }
+    ul {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+    }
+    table {
+      color: rgb(255,82,243);
+      font-family: Monospace;
+    }
+    body {
+      background-color: rgb(157,255,28);
+      font-family: Monospace;
+    }
+    </style>
+  <body>
+  <h1 id = "top-paje">Laboratory work 1</h1> 
+  <img src= "https://i.pinimg.com/736x/08/d5/df/08d5df7fd5da1fa4c0870a20e0ffe2c5.jpg" width="200">
+  <h2>First laboratory work of this semester</h2>
+  <p>In this foulder will be <strong>all lessons</strong> from <em><a target="_blank" href = "https://www.khanacademy.org/">khanacademy.org</a></em>. I will uploud here only final variant of paje< but privious you may see in changes. </p>
+  <h3>What academy will be in Lab1 folder?</h3>
+  <ul>
+    <li>khanacademy</li>
+    <li>udemy</li>
+    <li>w3schools</li>
+  </ul>
+  <p><em>*there you can see another lessons</em></p>
+  
+  <h2>Some fact about me: I have Cat</h2>
+  <table>
+    <tr>
+      <th><img src = "https://lh3.googleusercontent.com/pw/AP1GczPpX1NHKoE8DCNUunZCsjvAU2FeLD881SABJHBmA6XsidS0jACaHv77Yp-8qpAdISMjWU_d9eW-aHzUiRNdfCBuhmJ2IZSUiRTSC6vjGXz8p9sFQX123dvT5RBoCit0if-k7MAqAiq46oo4fpjlH8KEaQ=w671-h895-s-no-gm?authuser=0" width="200"></th>
+      <th>Her name - Chita</th>
+    </tr>
+  </table>
+
+  <h3>In fact, i also know how work with id and class, but i dont now how to show that in my project, so you may go to the top of the paje if you will click</h3>
+  <h2> <a href="#top-paje">here </a></h2>
+  </body>
+</html>
