@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 1</title>
+    <style>
+    h1 {
+      color: rgb(255,82,243);
+    }
+    h2 {
+      color: rgb(255,82,243);
+    }
+    h3 {
+      color: rgb(255,82,243);
+    }
+    p {
+      color: rgb(255,82,243);
+    }
+    ul {
+      color: rgb(255,82,243);
+    }
+    body {
+      background-color: rgb(157,255,28);
+    }
+    </style>
+  <body>
+  <h1>Laboratory work 1</h1> 
+  <img src= "https://i.pinimg.com/736x/08/d5/df/08d5df7fd5da1fa4c0870a20e0ffe2c5.jpg" width="200">
+  <h2>First laboratory work of this semester</h2>
+  <p>In this foulder will be <strong>all lessons</strong> from <em><a target="_blank" href = "https://www.khanacademy.org/">khanacademy.org</a></em> </p>
+  <h3>What academy will be in Lab1 folder?</h3>
+  <ul>
+    <li>khanacademy</li>
+    <li>udemy</li>
+    <li>w3schools</li>
+  </ul>
+  <p><em>*there you can see another lessons</em></p>
+  </body>
+</html>
