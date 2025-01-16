@@ -19,6 +19,9 @@
     ul {
       color: rgb(255,82,243);
     }
+    table {
+      color: rgb(255,82,243);
+    }
     body {
       background-color: rgb(157,255,28);
     }
@@ -35,6 +38,15 @@
     <li>w3schools</li>
   </ul>
   <p><em>*there you can see another lessons</em></p>
+  
+  <h2>Some fact about me: I have Cat</h2>
+  <table>
+    <tr>
+      <th><img src = "https://lh3.googleusercontent.com/pw/AP1GczP9w6mfGCxteiIcQnceOwLo6s_ZGnK-Qq13hvSvO78kPtIj40DNC-laiGYlVdeqwHHOltmdqmMszRYT9dO8Rrrywe5UgmCvoR_43-xW5i_oj7iVlcLj7K1CN5Mkwn0Ouw73nQB67rIDuYdFimA4AR-2cg=w671-h895-s-no-gm?authuser=0" width="200"></th>
+      <th>Her name - Chita</th>
+    </tr>
+  </table>
+
   <h3>In fact, i also know how work with id and class, but i dont now how to show that in my project, so you may go to the top of the paje if you will click</h3>
   <h2> <a href="#top-paje">here </a></h2>
   </body>
