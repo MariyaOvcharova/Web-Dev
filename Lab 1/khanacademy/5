@@ -34,12 +34,17 @@
     body {
       background-color: rgb(157,255,28);
       font-family: Monospace;
+      margin: 15px;
     }
     #table {
      background-color: rgb(237,230,255);
      width: 120%;
      height: 150%;
      font=size: 42px;
+    }
+    #gif {
+      position: absolute;
+      left: 140px;
     }
     </style>
   <body>
@@ -65,5 +70,6 @@
 
   <h3>In fact, i also know how work with id and class, but i dont now how to show that in my project, so you may go to the top of the paje if you will click</h3>
   <h2> <a href="#top-paje">here </a></h2>
+  <img src ="https://3.bp.blogspot.com/-IJIe0_bF9IM/V31dNNw7_dI/AAAAAAABosk/VP4AsfRr75wL0NTvBoXGrjcEopomgO41gCLcB/s1600/funny-cat-gifs-214-04.gif" width="300" id= "gif">
   </body>
 </html>
