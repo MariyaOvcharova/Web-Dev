@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>facebook</h2>
+            <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div class="right-section">
+            <form>
+                <input id="forma1" type="text" placeholder="Электронный адрес или номер телефона" required>
+                <input id="forma2" type="password" placeholder="Пароль" required>
+                <button type="submit" class="login-button">Вход</button>
+                <a id="poloska">Забыли пароль?</a>
+
+                <button type="button" class="create-account">Создать аккаунт</button>
+                <p id="small"><strong>Создать Страницу</strong> знаменитости, музыкальной группы или компании.</p>
+            </form>
+        </div>
+</body>
+</html>
