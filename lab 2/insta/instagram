@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="phones">
+            <img src="scr1.png"> 
+        </div>
+       <div class="left"> 
+        <div class="login-box">
+            <h1>Instagram</h1>
+            <div class="input-box">Телефон, имя пользователя или эл. адрес</div>
+            <div class="input-box" style="text-align: left;">Пароль</div>
+            <div class="button">Войти</div>
+            <div class="or">ИЛИ</div>
+            <div class="facebook">Войти через Facebook</div>
+            <div class="forgot">Забыли пароль?</div>
+
+              
+        </div>
+        <div class="signup">У вас ещё нет аккаунта? <span style="color: #0095f6;">Зарегистрироваться</span></div> 
+        <div>
+
+        </div>
+        <div class="download-apps">
+                <p>Установите приложение.</p>
+                <img src="appstore.png" alt="Скачать в App Store">
+                <img src="googleplay.png" alt="Скачать в Google Play">
+        </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <a href="#">Meta</a>
+        <a href="#">Информация</a>
+        <a href="#">Блог</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Помощь</a>
+        <a href="#">API</a>
+        <a href="#">Конфиденциальность</a>
+        <a href="#">Условия</a>
+        <a href="#">Места</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Threads</a>
+        <a href="#">Загрузка контактов</a>
+        <a href="#">Meta Verified</a>
+        <p>© 2025 Instagram from Meta</p>
+    </footer>
+
+</body>
+</html>
