@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Do List App</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h2>To-Do List</h2>
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="New Task">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <div id="taskList"></div>
+  </div>
+
+  <script>
+    function addTask() {
+      const taskInput = document.getElementById('taskInput');
+      const taskText = taskInput.value.trim();
+
+      if (taskText === '') {
+        alert('Task cannot be empty!');
+        return;
+      }
+
+      const taskList = document.getElementById('taskList');
+      const taskDiv = document.createElement('div');
+      taskDiv.className = 'task';
+
+      const taskContent = document.createElement('span');
+      taskContent.className = 'text';
+      taskContent.textContent = taskText;
+
+      const taskCheckbox = document.createElement('input');
+      taskCheckbox.type = 'checkbox';
+      taskCheckbox.onclick = () => {
+        taskDiv.classList.toggle('completed');
+      };
+
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'Delete';
+      deleteButton.onclick = () => {
+        taskList.removeChild(taskDiv);
+      };
+
+      taskDiv.appendChild(taskCheckbox);
+      taskDiv.appendChild(taskContent);
+      taskDiv.appendChild(deleteButton);
+
+      taskList.appendChild(taskDiv);
+      taskInput.value = '';
+    }
+  </script>
+</body>
+</html>
