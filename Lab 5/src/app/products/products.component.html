@@ -1,0 +1,31 @@
+<div class="products-container">
+    <div class="categories">
+      <h3>Категории</h3>
+      <ul>
+        <li *ngFor="let category of categories" (click)="selectCategory(category)" [class.active]="selectedCategory === category">
+          {{ category.name }}
+        </li>
+      </ul>
+    </div>
+  
+    <div class="products">
+      <div *ngIf="selectedCategory; else noCategory">
+        <h2>{{ selectedCategory.name }}</h2>
+        <div class="product-list">
+          <div *ngFor="let product of selectedCategory.products" class="product-card">
+            <img [src]="product.image" [alt]="product.name">
+            <h4>{{ product.name }}</h4>
+            <p class="price">{{ product.price }} ₸</p>
+            <p class="reviews">{{ product.reviews }} отзывов</p>
+            <button (click)="likeProduct(product)">❤ {{ product.likes }}</button>
+            <button (click)="removeProduct(selectedCategory, product)">Удалить</button>
+            <a [href]="product.link" target="_blank" style="text-decoration: none; background-color: #4b4b4b; color:rgb(255, 255, 255); font-size:14px; padding: 2px 5px 5px; border: none; border-radius: 2px; ">Купить</a>
+          </div>
+        </div>
+      </div>
+      <ng-template #noCategory>
+        <p>Выберите категорию</p>
+      </ng-template>
+    </div>
+  </div>
+  
