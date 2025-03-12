@@ -1,0 +1,10 @@
+<h1>Albums</h1>
+<p>Total albums: {{ albums.length }}</p>
+<ul>
+  <li *ngFor="let album of albums">
+    <span (click)="viewAlbumDetails(album.id)" style="cursor: pointer;">
+      {{ album.title }}
+    </span>
+    <button (click)="deleteAlbum(album.id)">Delete</button>
+  </li>
+</ul>
